@@ -3,10 +3,10 @@
 ---
 
 ## Overview
-This project applies machine learning to predict **NBA game outcomes** (Win/Loss) using historical data from **2003–2022**.  
-The dataset contained over **53,000 games**, including team Elo ratings, home advantage, rest days, and rolling averages of recent performance.  
+This project applies machine learning to predict NBA game outcomes (Win/Loss) using historical data from **2003–2022**.  
+The dataset contained over 53,000 games, including team Elo ratings, home advantage, rest days, and rolling averages of recent performance.  
 
-The goal is to evaluate multiple models, determine which features are most predictive of winning, and interpret model behavior using **SHAP (SHapley Additive exPlanations)** for transparency and trust.
+The goal is to evaluate multiple models, determine which features are most predictive of winning, and interpret model behavior using SHAP (SHapley Additive exPlanations) for transparency and trust.
 
 ---
 
@@ -59,7 +59,7 @@ Four predictive models were trained and compared:
 
 ### Random Forest Feature Importance
 
-- **Top Predictors:** `home`, `opp_roll_pts_5`, `roll_win_10`, and `rest_days`  
+- Top Predictors: `home`, `opp_roll_pts_5`, `roll_win_10`, and `rest_days`  
 - Home advantage remains one of the most consistent determinants of game outcomes.  
 - Rolling averages reflect team momentum and offensive consistency.  
 
