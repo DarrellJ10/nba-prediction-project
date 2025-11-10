@@ -3,7 +3,7 @@
 ---
 
 ## Overview
-This project applies machine learning to predict NBA game outcomes (Win/Loss) using historical data from **2003–2022**.  
+This project applies machine learning to predict NBA game outcomes (Win/Loss) using historical data from 2003–2022.  
 The dataset contained over 53,000 games, including team Elo ratings, home advantage, rest days, and rolling averages of recent performance.  
 
 The goal is to evaluate multiple models, determine which features are most predictive of winning, and interpret model behavior using SHAP (SHapley Additive exPlanations) for transparency and trust.
@@ -38,8 +38,8 @@ Four predictive models were trained and compared:
 
 ### 2. Model Training
 - Split data chronologically (80% train, 10% validation, 10% test)
-- Tuned hyperparameters using **GridSearchCV**
-- Calibrated Gradient Boosting model probabilities with **Platt scaling**
+- Tuned hyperparameters using GridSearchCV
+- Calibrated Gradient Boosting model probabilities with Platt scaling
 - Evaluated using:
   - **Accuracy** – Correct predictions ratio  
   - **AUC** – Ability to rank winners correctly  
