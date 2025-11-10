@@ -1,9 +1,5 @@
 #  NBA Game Prediction Project  
 *A Machine Learning Approach to Predict NBA Game Outcomes (2003–2022)*  
-
-![Confusion Matrix](results/confusion_matrix.png)
-![Feature Importance](results/feature_importance.png)
-
 ---
 
 ## Overview
@@ -50,8 +46,6 @@ Four predictive models were trained and compared:
   - **Brier Score** – Probability calibration quality  
 
 ### 3. Interpretability (SHAP)
-![SHAP Summary](results/shap_summary.png)
-![SHAP Bar Plot](results/shap_bar.png)
 
 **Key insights:**
 - `opp_elo_pre` and `elo_pre` were the strongest predictors of outcome.  
@@ -61,17 +55,15 @@ Four predictive models were trained and compared:
 
 ---
 
-## 📊 Key Results and Visuals
+##  Key Results and Visuals
 
 ### Random Forest Feature Importance
-![Feature Importance](results/feature_importance.png)
 
 - **Top Predictors:** `home`, `opp_roll_pts_5`, `roll_win_10`, and `rest_days`  
 - Home advantage remains one of the most consistent determinants of game outcomes.  
 - Rolling averages reflect team momentum and offensive consistency.  
 
 ### Confusion Matrix (Test Set)
-![Confusion Matrix](results/confusion_matrix.png)
 
 | Metric | Value |
 |:--------|:------|
